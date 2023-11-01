@@ -1,7 +1,7 @@
 :root {
     background-color: var(--background-color);
     color: var(--base-link-color);
-    --background-color: #000235;
+    --background-color: #ffffff;
     --base-link-color: #ffffff;
     --primary-color: #5151C6;
     --secondary-color: #ABD9D9;
@@ -34,6 +34,7 @@ h5,
 h6 {
     font-family: var(--font-secondary);
     text-transform: capitalize;
+    color: #000000
 }
 
 a {
@@ -92,6 +93,7 @@ header {
 
 .sub-text {
     width: 30rem;
+    color: #000000
 }
 
 footer {

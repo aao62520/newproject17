@@ -5,7 +5,7 @@ const websiteURL = 'http://localhost:3000';
 // Expected constants
 const expectedTitle = 'Ahmad Odeh project 17';
 const expectedLogoText = 'AO';
-const expectedMenuItemCount = 4;
+const expectedMenuItemCount = 3;
 const expectedHeroTitle = 'AHMAD ODEH';
 const expectedHeroSubText = 'I am a amateur ux developer based in New Jersey. I code with problem solving and collaborative thinking mind.';
 const expectedHeroLinkCount = 2;

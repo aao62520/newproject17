@@ -86,13 +86,21 @@ header {
     justify-content: flex-end;
     font-size: 1.25rem;
     flex-basis: 33.3%;
-    gap: 32px;
+    gap: 100px;
+ 
+
 }
 
 .menu-item {
     text-align: right;
     color:black;
+    position: relative;
+    left: 700px;
+    text-decoration: none;
+    font-weight: bold; /* Add this line to make the text bold */
+
 }
+
 
 .hero {
     display: flex;

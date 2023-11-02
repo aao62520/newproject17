@@ -3,7 +3,7 @@
     color: var(--base-link-color);
     --background-color: #ffffff;
     --base-link-color: #ffffff;
-    --primary-color: #5151C6;
+    --primary-color: #000000;
     --secondary-color: #ABD9D9;
     --accent-color:#555;
     --testimonial-color1: #131246;
@@ -102,15 +102,21 @@ header {
 }
 
 
+
 .hero {
     display: flex;
     justify-content: space-between;
-    position: relative; 
+    position: relative;
     color: #ffffff;
-    background: var(--background-color) url(../images/computer.png) no-repeat;
-    background-position: right;
+    background: var(--background-color) url(../images/0000.jpg) no-repeat;
+    background-size: auto 50%;
+    background-position: right 300px top; /* Move the background image 10 pixels to the left */
     height: 600px;
-    font: 2rem / 1.6 var(--font-primary);
+    font: 2rem/1.6 var(--font-primary);
+    border-radius: 20%;
+    overflow: hidden; /* Hide the overflowing parts of the background */
+
+
 }
 
 
@@ -372,7 +378,7 @@ a.btn-link {
     padding: 10px 20px;
     border-radius: 25px;
     background-color: var(--primary-color);
-    color: #fff;
+    color: #000000;
     text-decoration: none;
     text-transform: capitalize;
     transition: background-color 0.3s ease;
@@ -397,9 +403,26 @@ input[type=submit]:hover {
     background-color: var(--accent-color);
 }
 
+.my-button {
+    background-color: #000000; /* Button background color */
+    color: #ffffff; /* Button text color */
+    padding: 30px 50px; /* Padding around the text */
+    border: none; /* Remove the default button border */
+    border-radius: 5px; /* Add rounded corners to the button */
+    cursor: pointer; /* Change the cursor to a hand when hovering over the button */
+    margin-left: -75px; /* Move the button 20px to the left */
+    font-size: 1.5rem; /* Increase the font size (adjust the value as needed) */
+
+
+}
+
+.my-button:hover {
+    background-color: #000000; /* Change the background color on hover */
+}
+
 a.alt-btn-link {
     border: var(--secondary-color) solid 1px;
-    background-color: none;
+    background-color: black;
     text-transform: capitalize;
     border-radius: 25px;
     padding: 15px 20px;

@@ -110,7 +110,10 @@ footer {
     justify-content: space-between;
     margin-bottom: 7rem;
     margin-top: 5rem;
+    color:black;
 }
+
+
 
 .featured {
     display: flex;
@@ -121,7 +124,7 @@ footer {
     align-items: flex-start;
     margin-top: 10rem;
     margin-bottom: 10rem;
-    background: rgba(0, 0, 0, 0.19); 
+    background: rgba(0, 0, 0, 1); 
 }
 
 .featured h2 {
@@ -392,7 +395,7 @@ a.alt-btn-link {
     border-radius: 25px;
     padding: 15px 20px;
     border: 2px solid var(--secondary-color);
-    background: rgb(255, 255, 255);
+    background: rgba(161,214,214,0.00);
 }
 
 a.alt-btn-link:hover {
@@ -479,4 +482,10 @@ a.alt-btn-link:hover {
     position: relative;
 }
 
+.footer-link {
+    color:black;
+    font-size: 30px;
+    font-weight: 900;
+
+}
 
